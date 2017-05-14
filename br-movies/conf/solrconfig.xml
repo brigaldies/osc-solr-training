@@ -132,6 +132,9 @@
   -->
   <codecFactory class="solr.SchemaCodecFactory"/>
 
+  <!-- Per the OSC Solr training instructions: Switched from Managed Schema to Manually Edited schema.xml -->
+  <schemaFactory class="ClassicIndexSchemaFactory"/>
+
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        Index Config - These settings control low-level behavior of indexing
        Most example settings here show the default value, but are commented
