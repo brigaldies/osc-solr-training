@@ -1,0 +1,1 @@
+c:\tools\solr-6.5.1\bin\solr start -f -s c:\public\data\osc

@@ -123,6 +123,13 @@
     <field name="_root_" type="string" indexed="true" stored="false" docValues="false" />
     <field name="_text_" type="text_general" indexed="true" stored="false" multiValued="true"/>
 
+    <!-- Movies fields -->
+    <field name="title" type="text_en" indexed="true" stored="true" />
+    <field name="overview" type="text_en" indexed="true" stored="true" />
+    <field name="tagline" type="text_en" indexed="true" stored="true" />
+    <field name="genres" type="text_en" indexed="true" stored="true" multiValued="true" />
+    <field name="cast_name" type="text_en" indexed="true" stored="true" multiValued="true" />
+
     <!-- Only enabled in the "schemaless" data-driven example (assuming the client
          does not know what fields may be searched) because it's very expensive to index everything twice. -->
     <!-- <copyField source="*" dest="_text_"/> -->
