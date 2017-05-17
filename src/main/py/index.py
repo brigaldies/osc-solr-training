@@ -35,6 +35,7 @@ def index_movies(solr, movies):
             "id": movie["id"],
             "title": movie["title"],
             "overview": movie["overview"],
+            "tagline": movie["tagline"],
             "genres": genres,
             "cast_name": casts
         }
